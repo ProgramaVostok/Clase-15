@@ -1,65 +1,200 @@
-# Clase-15
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 
-Introducción:
-El 12 de abril de 1961 a las 6:07 a.m. se lanzó la nave espacial que llevo al primer ser humano al espacio. Esta no era ni más ni menos que la primera de 6 misiones que el programa espacial soviético “vostok” . Este programa se llevo a cabo entre los años 1961 y 1963, logrando poner a seis personas en órbita alrededor de la tierra en ese período.
+        <style>
+            :root {
+                --bs-font-sans-serif: 'Roboto', sans-serif;
+            }
+            h1,h2,h3,h4,h5,h6{font-weight: 700;}
+            @media (min-width: 992px) {
+                .container {
+                    max-width: 960px;
+                }
+            }
+        </style>
+        <title>Programa Vostok</title>
+    </head>
+    <body class="bg-black text-white">
+        <header>
+            <img src="assets/unouno.png" class="w-100" />
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
+                        <h1 class="m-5 mb-3 text-center">PROGRAMA VOSTOK</h1>
 
-Borrador: Gráfico comparación órbitas completadas
-![Untitled_Artwork](https://user-images.githubusercontent.com/112445758/200347943-dc8db88e-cc79-4e8c-bb3a-07d7308fca07.png)
+                        <h2 class="mb-4 text-center">El programa que llevó al ser humano al espacio</h2>
 
-Cosmonautas:
-Hasta el momento en la URSS se usaba a perros como sujetos de prueba para desarrollar el programa, pero con el proyecto vostok por primera vez se comienza a llevar a seres humanos al espacio. Estas personas se hacían llamar cosmonautas y tal como la cantidad de misiones, fueron seis los cuales fueron puestos en orbita.
+                        <p class="lead">
+                             El 12 de abril de 1961 a las 6:07 a.m. se lanzó la nave espacial que llevo al primer ser humano al espacio. Esta no era ni más ni menos que la primera de 6 misiones que el programa espacial soviético “vostok” . Este programa se llevo a cabo entre los años 1961 y 1963, logrando poner a seis personas en órbita alrededor de la tierra en ese período.
+                        </p>
 
-![image](https://user-images.githubusercontent.com/110859946/201732723-841e835d-cdec-430e-86b5-70cdf9645259.jpeg)
+                        <img src="assets/uno.jpg" class="w-100 my-3" />
+
+                        <p>
+                            Hasta el momento en la URSS se usaban perros como sujetos de prueba para desarrollar el programa, pero con el proyecto vostok por primera vez comienzan a llevar a seres humanos al espacio. Estas personas se hacían llamar cosmonautas y tal como la cantidad de misiones, fueron seis los cuales fueron puestos en orbita.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section id="linea-de-tiempo">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
+                        <h3 class="text-center mt-5">MISIONES</h3>
+                    </div>
+                </div>
+            </div>
+
+            <img src="assets/dos.jpg" class="w-100 my-3" />
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu lectus congue, lobortis lacus nec, dapibus magna. Maecenas nec faucibus nunc, quis egestas urna. Vivamus congue pretium nisi, ut facilisis erat posuere vitae. Vivamus ut hendrerit turpis. Integer mattis justo lectus, nec efficitur orci vehicula a. Praesent varius in leo eu feugiat.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="apolo_once">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
+                        <h3 class="text-center mt-5">CABINA Y COHETE</h3>
+                    </div>
+                </div>
+            </div>
+
+            <img src="assets/tres.jpg" class="w-100 my-3" />
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
+                        <p>
+                            La nave espacial Vostok estaba formada por una cabina esférica con un asiento para una persona, con una masa de 2,46 toneladas, diámetro de 2,3 metros y un módulo cónico para el equipamiento. La cabina estaba instalada sobre un módulo que contenía el sistema del motor. La nave fue puesta en órbita por el cohete SL-3, que permitía el desalojo del astronauta en caso de emergencia.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
+                        <h3 class="text-center mt-5">PRIMERA MUJER</h3>
+                        <h4 class="text-center mt-5">Valentina Tereshkova</h4>
+                        <img src="assets/imagen-otra.png" class="w-100 my-3" />
+                        <p>
+                            En un principio se planearon dos vuelos simultáneos con tripulación femenina, pero en marzo de 1963 el proyecto fue rechazado y tan solo se aprobó un viaje con una tripulante. Es así como Valentina Tereshkova, se volvió la primera mujer en el espacio. Su nombre en clave durante la misión era “Chaika” (“gaviota” en español).
+
+                        <p>
+                             Para la misión se realizaron modificaciones tanto en el traje espacial como en el diseño de la nave para que estuvieran mejor adaptados al organismo femenino. Este vuelo también sirvió para demostrar los logros del socialismo en el ámbito de la técnica espacial y para demostrar que en la URSS las mujeres tenían iguales posibilidades que los hombres. Sin embargo, tuvieron que pasar 20 años para que otra mujer soviética volviera a salir al espacio.
 
 
-Yuri A. Gagarin: Primer ser humano en el espacio
+                        </p>
+                        <h4 class="text-center mt-5">TERCER SUB-SUBTÍTULO: APOLO 17</h4>
+                        <img src="assets/imagen-otra.png" class="w-100 my-3" />
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu lectus congue, lobortis lacus nec, dapibus magna. Maecenas nec faucibus nunc, quis egestas urna. Vivamus congue pretium nisi, ut facilisis erat posuere vitae. Vivamus ut hendrerit turpis. Integer mattis justo lectus, nec efficitur orci vehicula a. Praesent varius in leo eu feugiat.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-Guerman Titov: Cosmonauta más joven de la historia.
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
+                        <h3 class="text-center mt-5">CUARTO SUBTÍTULO: TRIPULACIONES</h3>
+                        <img src="assets/imagen-otra.png" class="w-100 my-3" />
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu lectus congue, lobortis lacus nec, dapibus magna. Maecenas nec faucibus nunc, quis egestas urna. Vivamus congue pretium nisi, ut facilisis erat posuere vitae. Vivamus ut hendrerit turpis. Integer mattis justo lectus, nec efficitur orci vehicula a. Praesent varius in leo eu feugiat.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <img src="assets/imagen-otra-mas.png" class="w-100 my-3" />
+                    </div>
+                    <div class="col-sm-6">
+                        <img src="assets/imagen-otra-mas.png" class="w-100 my-3" />
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu lectus congue, lobortis lacus nec, dapibus magna. Maecenas nec faucibus nunc, quis egestas urna. Vivamus congue pretium nisi, ut facilisis erat posuere vitae. Vivamus ut hendrerit turpis. Integer mattis justo lectus, nec efficitur orci vehicula a. Praesent varius in leo eu feugiat.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-Andrián Nikoláyev: Primera transmisión desde una cápsula espacial.
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
+                        <h3 class="text-center mt-5">QUINTO SUBTÍTULO</h3>
+                    </div>
+                </div>
+            </div>
 
-Pável Popóvich: Primer ucraniano étnico en el espacio.
+            <img src="assets/imagen-otra.png" class="w-100 my-3" />
 
-Valeri Bykovski: Récord de permanencia (5 días). 
-
-Valentina Tereshkova: Primera mujer en el espacio
-
-![Untitled-Artwork](https://user-images.githubusercontent.com/110845873/201700833-b27c66b4-9299-405b-90e4-bce58103cbbb.jpg)
-
-Misiones:
-
-Vostok 1:
-El 12 de abril 1961 en la nave Vostok-1 Yuri Gagarin viajó al espacio donde su nave dio una vuelta a la Tierra en una misión de 108 minutos.
-El cosmonauta estaba asegurado con unas correas al asiento eyectable, gracias al cual saldría del módulo tras el reingreso a la atmósfera, a una altitud de aproximadamente 7 kilómetros. Este módulo fue modificado más adelante para el programa Vosjod, que reemplazó a Vostok, y en otros programas basados en satélites sin tripulación.
-
-Vostok 2:
-El segundo hombre en el espacio, Guerman Titov, voló en la nave Vostok-2. El 9 de agosto de 1961 Titov dio 17 vueltas alrededor de la Tierra en poco más de 24 horas y se convirtió, con 26 años, en el cosmonauta más joven de la historia.
-El vuelo se realizó casi sin problemas, a excepción de que el módulo de servicio no se separó tras el frenado (a la Vostok 1 le pasó lo mismo) y que Titov no fue capaz más que de tomar fotografías ya que fue la primera víctima del mareo espacial, igual al terrestre pero cuyos efectos eran desconocidos en aquella época.
-
-Vostok 3 y 4:
-El siguiente vuelo de las naves Vostok-3 y Vostok-4 fue el primer vuelo de artefactos espaciales en grupo. La Vostok-3, pilotada por Andrián Nikoláyev, despegó el 11 de agosto de 1962, al día siguiente le siguió la Vostok-4 con Pável Popóvich.
-Las dos naves permanecieron en órbita tres días y llegaron a situarse a una distancia de solo 6,5 km una de otra, aunque, dado que no podían maniobrar, no lograron acoplarse ni realizar un encuentro.
-Por primera vez llegaron a la Tierra señales de televisión desde el espacio, en las que veía cómo los cosmonautas flotaban en la ingravidez.
-
-Vostok 5 y 6:
-El 14 de junio 1963 se realizó el lanzamiento de la Vostok-5 con el piloto Valeri Bykovski a bordo. Su vuelo, hasta hoy día, ostenta el récord de ser el vuelo en solitario más prolongado. Bykovski pasó solo en el espacio casi 5 días.
-El 16 de junio de 1963 para encontrarse con Bykovski, que llevaba ya tres días en la órbita, se lanzó la última nave espacial del programa Vostok, concretamente la sexta.
-
-![interior vostok](https://user-images.githubusercontent.com/110845873/201699332-1665f6a2-8e98-4c3d-a574-c7ff08f006bf.jpg)
-
-Cohete:
-La nave espacial Vostok estaba formada por una cabina esférica con un asiento para una persona, con una masa de 2,46 toneladas, diámetro de 2,3 metros y un módulo
-cónico para el equipamiento. La cabina estaba instalada sobre un módulo que contenía el sistema del motor. La nave fue puesta en órbita por el cohete SL-3, que permitía el desalojo del astronauta en caso de emergencia.
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu lectus congue, lobortis lacus nec, dapibus magna. Maecenas nec faucibus nunc, quis egestas urna. Vivamus congue pretium nisi, ut facilisis erat posuere vitae. Vivamus ut hendrerit turpis. Integer mattis justo lectus, nec efficitur orci vehicula a. Praesent varius in leo eu feugiat.
+                        </p>
+                         <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu lectus congue, lobortis lacus nec, dapibus magna. Maecenas nec faucibus nunc, quis egestas urna. Vivamus congue pretium nisi, ut facilisis erat posuere vitae. Vivamus ut hendrerit turpis. Integer mattis justo lectus, nec efficitur orci vehicula a. Praesent varius in leo eu feugiat.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
 
+        <aside>
+            <div class="container">
+                <div class="row py-3">
+                    <div class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
+                        <p class="small text-muted">
+                            Pendiente para igualarlo entre los grupos.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </aside>
 
-Borrador:Vistas cohete 
-[Ilustración_sin_título](https://user-images.githubusercontent.com/112445758/200453832-5d4815a4-d257-45e8-a00e-024a377dccb6.jpg)
-
-
-
-Primera mujer:
-
-En un principio se planearon dos vuelos simultáneos con tripulación femenina, pero en marzo de 1963 el proyecto fue rechazado y tan solo se aprobó un viaje con una tripulante. Es así como Valentina Tereshkova, se volvió la primera mujer en el espacio. Su nombre en clave durante la misión era “Chaika” (“gaviota” en español). 
-
-Para la misión se realizaron modificaciones tanto en el traje espacial como en el diseño de la nave para que estuvieran mejor adaptados al organismo femenino. Este vuelo también sirvió para demostrar los logros del socialismo en el ámbito de la técnica espacial y para demostrar que en la URSS las mujeres tenían iguales posibilidades que los hombres. Sin embargo, tuvieron que pasar 20 años para que otra mujer soviética volviera a salir al espacio. 
+        <footer>
+            <div class="container">
+                <div class="row py-3">
+                    <div class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
+                        <p class="small text-muted">
+                            Pendiente para igualarlo entre los grupos.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    </body>
+</html>
