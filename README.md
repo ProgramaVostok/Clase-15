@@ -9,6 +9,9 @@ Borrador: Gráfico comparación órbitas completadas
 Cosmonautas:
 Hasta el momento en la URSS se usaba a perros como sujetos de prueba para desarrollar el programa, pero con el proyecto vostok por primera vez se comienza a llevar a seres humanos al espacio. Estas personas se hacían llamar cosmonautas y tal como la cantidad de misiones, fueron seis los cuales fueron puestos en orbita.
 
+![image](https://user-images.githubusercontent.com/110859946/201732723-841e835d-cdec-430e-86b5-70cdf9645259.jpeg)
+
+
 Yuri A. Gagarin: Primer ser humano en el espacio
 
 Guerman Titov: Cosmonauta más joven de la historia.
