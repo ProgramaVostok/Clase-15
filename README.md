@@ -1,6 +1,5 @@
 # Clase-15
 
-![interior vostok](https://user-images.githubusercontent.com/110845873/201696223-ddfe2be6-0c5d-4a8b-8244-c99629594240.jpg)
 Introducción:
 El 12 de abril de 1961 a las 6:07 a.m. se lanzó la nave espacial que llevo al primer ser humano al espacio. Esta no era ni más ni menos que la primera de 6 misiones que el programa espacial soviético “vostok” . Este programa se llevo a cabo entre los años 1961 y 1963, logrando poner a seis personas en órbita alrededor de la tierra en ese período.
 
@@ -43,6 +42,8 @@ El 16 de junio de 1963 para encontrarse con Bykovski, que llevaba ya tres días 
 
 Cohete:
 La nave espacial Vostok estaba formada por una cabina esférica con un asiento para una persona, con una masa de 2,46 toneladas, diámetro de 2,3 metros y un módulo cónico para el equipamiento. La cabina estaba instalada sobre un módulo que contenía el sistema del motor. La nave fue puesta en órbita por el cohete SL-3, que permitía el desalojo del astronauta en caso de emergencia.
+
+![interior vostok](https://user-images.githubusercontent.com/110845873/201697002-42e52e3d-a60e-4074-b471-17b2c8e90003.jpg)
 
 Borrador:Vistas cohete 
 [Ilustración_sin_título](https://user-images.githubusercontent.com/112445758/200453832-5d4815a4-d257-45e8-a00e-024a377dccb6.jpg)
