@@ -21,6 +21,8 @@ Valeri Bykovski: Récord de permanencia (5 días).
 
 Valentina Tereshkova: Primera mujer en el espacio
 
+![Untitled-Artwork (3)](https://user-images.githubusercontent.com/110845873/201700092-c267018e-eb57-4e98-a0fd-8b4a9364ebeb.png)
+
 Misiones:
 
 Vostok 1:
